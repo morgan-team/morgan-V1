@@ -1,79 +1,45 @@
 # morgan-V1
 
-سورس ورژن 1 مورگان  روی گیت قرار گرفت :
+سورس مورگان ورژن 1
 
-1️⃣ ابتدا پیش نیاز های سورس نصب میکنیم‌ :
+آموزش نصب:
 
- sudo apt-get update; sudo apt-get upgrade; sudo apt-get install tmux; sudo apt-get install luarocks; sudo apt-get install screen; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev; sudo apt-get update; sudo apt-get install; sudo apt-get install upstart-sysv
+اول سورس را گیت کلون میکنیم  
 
- wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz;tar zxpf luarocks-2.2.2.tar.gz;cd luarocks-2.2.2 && ./configure; sudo make bootstrap;sudo luarocks install luasocket;sudo luarocks install luasec;sudo luarocks install redis-lua;sudo luarocks install lua-term;sudo luarocks install serpent;sudo luarocks install dkjson;sudo luarocks install lanes;sudo luarocks install Lua-cURL
+git clone https://github.com/morgan-team/morgan-V1  
 
-		بزنید :
-
- Cd
-
-======================
-2️⃣** سپس سورس را کلون میکنیم :
-
-git clone https://github.com/morgan-team/morgan-V1
-======================
-
-
-3️⃣ وارد شماره‌ ربات میشویم و  یه ربات (api) با
-
-
- @Botfather 
-میسازیم اسم و ایدی وارد میکنیم (سپس باید اینلاین را فعال کنیم 
-
-/setinline
-
- میزنیم و بعد ایدی ربات رو میزنیم در اخر یه ok میفرسیم‌)
-======================
-4️⃣ سپس‌ با شماره ربات، ربات
-
- @userinfobot 
-
-را استارت کرده و ایدی عددی شماره ربات را کپی میکنیم کرده ...
-
-======================
-5️⃣ وارد مسیر زیر میشویم**
+وارد مسیر زیر میشیم
 
 morgan/api/bot/bot.lua
 
-در خط [3] توکن ربات (api) که مرحله سوم با شماره ربات ساخیم وارد میکنیم.
+در خط 3 توکن ربان ای پی را قرار می دهیم 
 
-در خط [5] ایدی سودو اصلی یعنی خودتون قرار میدید .
+در خط 5 ایدی عددی سودو اصلی  
 
-در خط [165] ایدی سودو اصلی یعنی خودتون و ایدی ربات
+در خط 165 ایدی عددی سودو و ایدی عددی ربات سی ال ای
 
-cli ینی ایدی تلگرام رباتتون رو قرار میدید . اگر سه تا عدد 
+سیو میکنیم خارج میشیم
 
-پیشفرض نوشته بود مال خودتونو جاگزین کنید سومی رو پاک کنید
-.
-
-سیو میکنیم‌ خارج میشیم‌ ....
-
-======================
-6️⃣ وارد مسیر زیر میشیم‌
+وارد مسیر زیر میشیم
 
 morgan/cli/plugins/Tools
 
-در خط [2] ایدی عددی سودو قرار میدهید .
+در خط 2 ایدی عددی سودو را جا گذاری می کنیم
 
-سیو میکنم‌ خارج میشیم‌....
+سیو می کنیم 
 
-سپس وارد مسیر زیر میشویم 
+وارد مسیر زیر میشیم 
 
 morgan/cli/bot/bot.lua
 
-و بعد در خط [17] ایدی ربات (api) را وارد میکنیم توجه داشته باشید ایدی عددی ربات (api) اول توکن نوشته شده است .
+در خط 17 ایدی عددی ربات ای پی را قرار می دهیم
 
-در خط 95 دوتا ایدی پیشفرض نوشته شما ایدی خودتون و ایدی ربات cli رو باهاش جایگزین کنید .
+در خط 95 ایدی عددی سودو  و ایدی عددی ربات سی ال ای راقرار می دهیم
 
-سیو میکنم‌ خارج میشیم‌
-....
-======================
-7️⃣ دستورات زیر در ترمینال وارد کنید ...
+سیو میکنیم خارج میشیم 
+
+دستورات زیر را در ترمینال وارد کنید
+
 
 cd morgan/cli
 
@@ -116,10 +82,6 @@ cd morgan/cli && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh
 
 تموم . میتونید از سرور خارج شید .
 
-توجه داشته باشید بعد از لانچ شدن ربات
+▪️Channel : @morgan_team
 
-(api) یا همون هلپر وارد شماره ربات میشم و ربات (api) که در مرحله سوم ساختیم /start میکنیم ...
-====================
-
-
-
+▪️Edited By : @shiekh_mamad & @kiarashNASA
