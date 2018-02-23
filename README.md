@@ -41,7 +41,7 @@
 دستورات زیر را در ترمینال وارد کنید
 
 
-🚦 cd morgan/cli
+🚦 cd morgan-V1/cli
 
 🚦 chmod +x morgan.sh
 
@@ -59,7 +59,7 @@
 
 کد های زیر را در سرور میزنیم 
 
-🚦 cd morgan/api
+🚦 cd morgan-V1/api
 
 🚦 chmod +x morgan.sh
 
@@ -75,11 +75,11 @@
 
 حالا ربات اماده لانچ کردنه :
 
-🚦cd morgan/api && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh
+🚦cd morgan-V1/api && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh
 
 یه ترمینال دیگه باز کنید و این رو بزنید : 
 
-🚦 cd morgan/cli && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh 
+🚦 cd morgan-V1/cli && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh 
 
 تموم . میتونید از سرور خارج شید .
 
